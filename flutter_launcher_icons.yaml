@@ -1,0 +1,17 @@
+dev_dependencies:
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: false  # <--- CHANGE THIS TO FALSE
+  image_path: "assets/app_icon.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/app_icon.png"
+    background_color: "#050505"
+    theme_color: "#B026FF"
+  windows:
+    generate: true
+    image_path: "assets/app_icon.png"
+    icon_size: 48
